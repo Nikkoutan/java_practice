@@ -13,7 +13,7 @@ public class DZ10 {
         int col = sc.nextInt();
         System.out.println("Введите число строк массива: ");
         int str = sc.nextInt();
-        double[][] arr = new double[str][col];//задаём двумерный указанного размера
+        double[][] arr = new double[str][col];//задаём двумерный массив указанного размера
         for (int i = 0; i < str; i++) {
             System.out.println("Введите данные для " + (i + 1) + "-й строки, (" + col + " шт.):");
             for (int j = 0; j < col; j++) {
